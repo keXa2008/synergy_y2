@@ -14,7 +14,7 @@ public class Calculator {
         this.goal=goal;
     }
     private double iterate(double money, double plus, double interest){
-        return money*((interest/100))+plus;
+        return money*((interest/12/100))+plus;
     }
     public int calculate(){
         int months=0;
